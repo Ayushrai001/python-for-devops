@@ -3,7 +3,7 @@ days = set() # empty set
 days = {"saturday","sunday","sunday","saturday"}
 
 nums = [1,1,1,1,2,2,2,3,3,4,6.4,6.4,0,-1,-4]
-nums = list(set(nums))
+nums = list(set(nums))# set is used to remove the duplicate values from the list and then we convert it back to list using list function
 print(nums)
 
 print(type(info))

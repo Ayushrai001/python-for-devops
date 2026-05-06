@@ -28,7 +28,7 @@ def check_disk_threshold():
     disk_usage=psutil.disk_usage('/').percent # disk usage check karna in percentage
     print(f"Current disk usage: {disk_usage}%")
     if disk_usage > disk_threshold:
-        print("Disk Alert Email sent...")
+        print("Disk Alert...")
     else:
         print("Disk usage is normal.")
 check_disk_threshold()
@@ -37,7 +37,8 @@ def check_memory_threshold():
     memory_usage=psutil.virtual_memory().percent # memory usage check karna in percentage
     print(f"Current memory usage: {memory_usage}%")
     if memory_usage > memory_threshold:
-        print("Memory Alert Email sent...")
+        print("Memory Alert...")
     else:
         print("Memory usage is normal.")
 check_memory_threshold()
+
