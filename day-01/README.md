@@ -1,6 +1,6 @@
 # Day 01 – Introduction to Python for DevOps
 
-## Task
+## Task 
 
 Today’s goal is to write your **first Python script**.
 
