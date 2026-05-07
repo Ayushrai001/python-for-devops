@@ -1,4 +1,5 @@
 import requests
+import json
 
 def fetch_user_data(api_url):# Function to fetch user data from the API with error handling
     
